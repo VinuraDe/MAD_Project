@@ -14,6 +14,24 @@
         android:theme="@style/Theme.MAD_Mobile"
         tools:targetApi="31">
         <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditSupplierActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SupplierView"
+            android:exported="false" />
+        <activity
+            android:name=".AddSupplierActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
